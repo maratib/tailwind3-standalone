@@ -9,7 +9,6 @@
     font-family: Oswald;
     src: url(./src/fonts/Oswald/Oswald-Bold.ttf) format("​truetype​");
   }
-
   body {
     @apply bg-gray-100;
   }
@@ -28,6 +27,7 @@
 }
 
 @layer components {
+  //Custom class
   .card {
     background-color: theme("colors.white");
     border-radius: theme("borderRadius.lg");

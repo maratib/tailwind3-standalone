@@ -549,7 +549,6 @@ select {
     font-family: Oswald;
     src: url(./src/fonts/Oswald/Oswald-Bold.ttf) format("​truetype​");
   }
-
   body {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -739,7 +738,6 @@ select {
 
 /* layer base preset */
 /* follwing when compiled will be inserted at the end of base styles */
-
 @media (min-width: 1024px) {
 
   .lg\:rounded-none {
