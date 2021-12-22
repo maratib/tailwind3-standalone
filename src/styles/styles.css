@@ -660,11 +660,21 @@ select {
     content: 'screen: 2xl';
   }
 }
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+/* ... */
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
 .row-span-2 {
   grid-row: span 2 / span 2;
+}
+.m-6 {
+  margin: 1.5rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -715,6 +725,9 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(94 234 212 / var(--tw-bg-opacity));
 }
+.p-6 {
+  padding: 1.5rem;
+}
 .p-10 {
   padding: 2.5rem;
 }
@@ -726,3 +739,10 @@ select {
 
 /* layer base preset */
 /* follwing when compiled will be inserted at the end of base styles */
+
+@media (min-width: 1024px) {
+
+  .lg\:rounded-none {
+    border-radius: 0px;
+  }
+}
