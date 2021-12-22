@@ -7,7 +7,7 @@
 @layer base {
   @font-face {
     font-family: Oswald;
-    src: url(@/assets/fonts/Oswald/Oswald-Bold.ttf) format("​truetype​");
+    src: url(./src/fonts/Oswald/Oswald-Bold.ttf) format("​truetype​");
   }
 
   body {
